@@ -259,7 +259,7 @@ a {
   margin-top: 15px;
 }
 .content {
-  height: 70vh;
+  height: auto;
   width: 100%;
   background-color: rgb(245, 245, 229);
   display: flex;
@@ -287,7 +287,7 @@ a {
 footer {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 80vh;
   gap: 30px;
   padding-top: 50px;
 }
@@ -323,7 +323,7 @@ h5 {
   display: none;
 }
 
-.mobile_footer{
+.mobile_foooter{
   display: none;
 }
 
@@ -437,7 +437,7 @@ h5 {
     display: none;
   }
 
-  .mobile_footer{
+  .mobile_foooter{
     display: block;
   }
   .footer{

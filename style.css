@@ -109,7 +109,7 @@ nav ul li img {
   background: none;
   background-color: white;
   height: 6vh;
-  width: 150px;
+  width: 190px;
   font-weight: 800;
   margin-top: 10px;
 }
@@ -311,3 +311,143 @@ footer .footer_1 p {
 .lower_footer p {
   line-height: 50px;
 }
+
+.mobile_nav {
+  display: none;
+}
+.hero_section h2,
+h5 {
+  display: none;
+}
+.mobilecategory{
+  display: none;
+}
+
+.mobile_footer{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .upper_nav {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+    margin-left: -270px;
+  }
+  .mobile_nav img {
+    width: 80px;
+  }
+
+  .hero_section {
+    background-image: url(./img/img1.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    justify-content: end;
+  }
+  .hero_section h1
+   {
+    display: none;
+  }
+  .hero_section p
+   {
+    display: none;
+  }
+  .hero_section h2{
+    display: block;
+  }
+
+  .hero_section
+  h5 {
+    display: block;
+  }
+
+  .container {
+    overflow-y: hidden;
+  }
+  .container .div1,
+  .div2,
+  .div3,
+  .div4,
+  img {
+    width: 200px;
+  }
+
+  .container .div1,
+  .div2,
+  .div3,
+  .div4,
+  h3{
+    font-size: 12px;
+  }
+
+  .category{
+    display: none;
+  }
+  .mobilecategory{
+    display: block;
+    margin: 10px 50px;
+  }
+
+  .women img {
+    width: 210px;
+  }
+  .men img {
+    width: 210px;
+  }
+  .kids img {
+    width: 210px;
+  }
+
+  .new_arrivals {
+    margin-left: 50px;
+  }
+
+  .product {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .heading_1{
+    margin-left: 50px;
+  }
+
+  .catalog {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .catalog .catalog_1 h2 {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .catalog .catalog_1 p{
+    font-size: 10px;
+  }
+  .content{
+    flex-direction: column;
+    height: auto;
+  }
+  .add{
+    flex-direction: column;
+  }
+  footer{
+    display: none;
+  }
+
+  .mobile_footer{
+    display: block;
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+    background-color: black;
+    color: white;
+  }
+
+}
+

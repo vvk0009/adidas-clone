@@ -193,6 +193,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 12px;
+  flex-wrap: wrap;
 }
 .women img {
   width: 410px;
@@ -448,6 +449,25 @@ h5 {
     background-color: black;
     color: white;
   }
+
+  .content {
+    padding: 40px 10px;
+  }
+
+  .product {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .catalog {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .add h1{
+    font-size: 20px;
+  }
+
 
 }
 

@@ -28,7 +28,13 @@
   font-size: 14px;
 }
 nav {
-  margin-left: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 15vh;
+}
+nav div img{
+  width: 50%;
 }
 nav ul {
   display: flex;
@@ -45,40 +51,28 @@ nav ul a {
 nav ul img {
   margin-left: -490px;
 }
-nav ul li:nth-child(8) {
-  position: relative;
-  left: 210px;
-}
-nav ul li:nth-child(9) {
-  position: relative;
-  left: 210px;
-}
-nav ul li:nth-child(10) {
-  position: relative;
-  left: 210px;
-}
-nav ul li:nth-child(11) {
-  position: relative;
-  left: 210px;
-}
-nav ul li input {
+nav div input {
   border: none;
   background-color: #eceff1;
   height: 35px;
   width: 200px;
 }
 
-nav ul li input::placeholder {
+nav div input::placeholder {
   color: black;
-  padding-left: 25px;
+  padding-left: 35px;
 }
-nav ul li i {
+nav div{
   position: relative;
-  left: -30px;
 }
-
-nav ul li img {
-  width: 80px;
+nav div .fa-magnifying-glass{
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+nav div a{
+  color: black;
+  margin-left: 20px;
 }
 .lower_heading {
   display: flex;
@@ -124,6 +118,7 @@ nav ul li img {
   grid-column-gap: 12px;
   margin-left: 130px;
   margin-top: 40px;
+  overflow-x: hidden;
 }
 
 .container .div1 {
@@ -327,13 +322,21 @@ h5 {
 .mobile_foooter{
   display: none;
 }
-
+@media (max-width: 999px) {
+  nav div input{
+    display: none;
+  }
+  nav div .fa-magnifying-glass{
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .upper_nav {
     display: none;
   }
   nav {
     display: none;
+      margin-left: 280px;
   }
   .mobile_nav {
     display: block;
@@ -469,5 +472,22 @@ h5 {
   }
 
 
+}
+
+@media (max-width:695px) {
+  .hero_section {
+    background-image: url(./img/em_in_everything_bunning_bau_laundh_ss24_hp_bnr_t_80dc98bc5e.avif);
+    background-size: auto;
+    background-repeat: no-repeat;
+    justify-content: end;
+  }
+}
+@media (max-width:553px) {
+  .hero_section {
+    background-image: url(./img/em_in_everything_bunning_bau_laundh_ss24_hp_bnr_m_cf00767774.avif);
+    background-size: auto;
+    background-repeat: no-repeat;
+    justify-content: end;
+  }
 }
 

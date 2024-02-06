@@ -33,7 +33,7 @@ nav {
   justify-content: space-evenly;
   height: 15vh;
 }
-nav div img{
+nav div img {
   width: 50%;
 }
 nav ul {
@@ -62,15 +62,15 @@ nav div input::placeholder {
   color: black;
   padding-left: 35px;
 }
-nav div{
+nav div {
   position: relative;
 }
-nav div .fa-magnifying-glass{
+nav div .fa-magnifying-glass {
   position: absolute;
   top: 12px;
   left: 10px;
 }
-nav div a{
+nav div a {
   color: black;
   margin-left: 20px;
 }
@@ -315,18 +315,18 @@ footer .footer_1 p {
 h5 {
   display: none;
 }
-.mobilecategory{
+.mobilecategory {
   display: none;
 }
 
-.mobile_foooter{
+.mobile_foooter {
   display: none;
 }
 @media (max-width: 999px) {
-  nav div input{
+  nav div input {
     display: none;
   }
-  nav div .fa-magnifying-glass{
+  nav div .fa-magnifying-glass {
     display: none;
   }
 }
@@ -336,7 +336,7 @@ h5 {
   }
   nav {
     display: none;
-      margin-left: 280px;
+    margin-left: 280px;
   }
   .mobile_nav {
     display: block;
@@ -352,20 +352,17 @@ h5 {
     background-repeat: no-repeat;
     justify-content: end;
   }
-  .hero_section h1
-   {
+  .hero_section h1 {
     display: none;
   }
-  .hero_section p
-   {
+  .hero_section p {
     display: none;
   }
-  .hero_section h2{
+  .hero_section h2 {
     display: block;
   }
 
-  .hero_section
-  h5 {
+  .hero_section h5 {
     display: block;
   }
 
@@ -384,14 +381,14 @@ h5 {
   .div2,
   .div3,
   .div4,
-  h3{
+  h3 {
     font-size: 12px;
   }
 
-  .category{
+  .category {
     display: none;
   }
-  .mobilecategory{
+  .mobilecategory {
     display: block;
     margin: 10px 50px;
   }
@@ -415,7 +412,7 @@ h5 {
     margin-right: 50px;
   }
 
-  .heading_1{
+  .heading_1 {
     margin-left: 50px;
   }
 
@@ -427,24 +424,24 @@ h5 {
     margin-top: 15px;
     font-size: 15px;
   }
-  .catalog .catalog_1 p{
+  .catalog .catalog_1 p {
     font-size: 10px;
   }
-  .content{
+  .content {
     flex-direction: column;
     height: auto;
   }
-  .add{
+  .add {
     flex-direction: column;
   }
-  footer{
+  footer {
     display: none;
   }
 
-  .mobile_foooter{
+  .mobile_foooter {
     display: block;
   }
-  .footer{
+  .footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -467,14 +464,12 @@ h5 {
     margin-right: 0px;
   }
 
-  .add h1{
+  .add h1 {
     font-size: 20px;
   }
-
-
 }
 
-@media (max-width:695px) {
+@media (max-width: 695px) {
   .hero_section {
     background-image: url(./img/em_in_everything_bunning_bau_laundh_ss24_hp_bnr_t_80dc98bc5e.avif);
     background-size: auto;
@@ -482,7 +477,7 @@ h5 {
     justify-content: end;
   }
 }
-@media (max-width:553px) {
+@media (max-width: 553px) {
   .hero_section {
     background-image: url(./img/em_in_everything_bunning_bau_laundh_ss24_hp_bnr_m_cf00767774.avif);
     background-size: auto;
@@ -490,4 +485,3 @@ h5 {
     justify-content: end;
   }
 }
-
